@@ -1,0 +1,31 @@
+
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+     <item>
+         <layer-list>
+             //android:left meaning distance of left shadow from left
+             <item android:left="6dp" android:top="1dp">
+                 <shape>
+                     //shadow corner
+                     <corners android:radius="2dp" />
+                     //shadow color
+                     <solid android:color="#00bcd4" />
+                 </shape>
+             </item>
+             //android:bottom is width of sadhow
+             <item android:bottom="4dp" android:left="2dp">
+
+                 <shape>
+                     <gradient android:angle="270"
+                         android:endColor="#00b0ff" android:startColor="#00b0ff" />
+                     //boundry color
+                     <stroke android:width="1dp" android:color="#ff7043" />
+                     //corner of button
+                     <corners android:radius="1dp" />
+                     <padding android:bottom="10dp" android:left="10dp"
+                         android:right="10dp" android:top="10dp" />
+                 </shape>
+             </item>
+         </layer-list>
+     </item>
+
+ </selector>

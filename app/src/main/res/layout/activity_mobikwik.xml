@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginBottom="50dp"
+    >
+<RelativeLayout
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.popo.as.appbook.Mobikwik"
+    android:paddingLeft="8dp"
+    android:paddingRight="13dp"
+    android:background="#f5f5f5">
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true">
+    <ImageView
+        android:layout_marginTop="15dp"
+        android:id="@+id/pay"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/paytmm"
+        android:scaleType="centerCrop"
+        android:layout_marginBottom="5dp"
+        android:padding="4dp"
+        android:background="#ffffff"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/headingWriting"
+        android:text="About MobiKwik"
+        android:padding="4dp"
+        android:background="#ffffff"
+        />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#ffffff"
+            android:padding="4dp"
+            style="@style/textWritting"
+            android:text="MobiKwik is the Mobile Phone based payment system and provides a digital wallet.Where you can add money using debit or credit card to pay for bill payment and other feature.\n\n You need to set up an account using your mobile phone number and email ID to setup a Paytm account and transfer cash to the wallet"/>
+        />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/headingWriting"
+            android:text="Things you can do...."
+            android:padding="4dp"
+            android:background="#ffffff"
+            />
+
+</LinearLayout>
+</RelativeLayout>
+</ScrollView>
